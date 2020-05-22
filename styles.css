@@ -145,7 +145,7 @@ h5 {
 #kisame {
     height: 300px;
     width: 300px;
-    margin-top:-100px;
+    margin-top: 0px;
 }
 
 #shisui {
@@ -158,9 +158,37 @@ h5 {
 #brother {
     height: 300px;
     width: 300px;
-    margin-top: -100px;
+    margin-top: 0px;
 }
 
 .prophets-mutual {
     display: inline-block;
+}
+
+.prophets-label {
+    margin: 10px;
+}
+
+.comandments {
+    height: 70vh;
+    background: #303033;
+}
+
+#comandments-header {
+    color: #E1DFDB;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+
+#comandments-list {
+    color: #E1DFDB;
+}
+
+li{
+    margin: 10px;
+}
+
+.logo2{
+    height: 180px;
+    width: 120px;
 }
