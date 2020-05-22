@@ -1,0 +1,104 @@
+#throne {
+    width:300px;
+    height: 400px;
+    position: absolute;
+    right: 200px;
+    bottom: -40px;
+}
+
+.header{
+    background-image: url('./images/phone.jpg');
+    height:70vh;
+    position:relative;
+}
+
+@media (max-width: 600px) {
+    #throne {
+        right: 20px;
+        bottom: -40px;
+    }
+}
+
+#cloud {
+    position: absolute;
+    right: 60px;
+    bottom: 250px;
+    width:200px;
+    height: 100px;
+    animation: move1 2s infinite alternate;
+}
+
+#cloud2 {
+    position: absolute;
+    right: 450px;
+    bottom: 250px;
+    width:200px;
+    height: 100px;
+    animation: move2 2s infinite alternate;
+}
+
+#shar {
+    position: absolute;
+    right: 312px;
+    bottom: 295px;
+    width: 80px;
+    height: 80px;
+    animation: move3 2s infinite alternate;
+}
+
+.headers {
+    font-family: Candara, sans-serif;
+    text-decoration: none !important;
+    color: #9A1516;
+}
+
+.headers:hover {
+    color: #FF0000;
+}
+
+.logo {
+    height: 100px;
+    width: 70px;
+}
+
+.label {
+    border: 5px solid #9A1516;
+    color: #9A1516;
+    width: 515px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 150px;
+} 
+
+h5 {
+    display: inline;
+}
+
+#it{
+    margin-left:110px;
+}
+
+
+@keyframes move {
+    from { bottom: -40px; }
+    to { bottom: 0px; }
+}
+
+@keyframes move1 {
+    from { bottom: 250px; }
+    to { bottom: 290px; }
+}
+
+@keyframes move2 {
+    from { bottom: 250px; }
+    to { bottom: 290px; }
+}
+
+@keyframes move3 {
+    from { bottom: 295px; }
+    to { bottom: 335px; }
+}
+
+.move {
+    animation: move 2s infinite alternate;
+}
