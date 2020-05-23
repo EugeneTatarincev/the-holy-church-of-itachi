@@ -186,9 +186,30 @@ h5 {
 
 li{
     margin: 10px;
+    font-size: 18px;
 }
 
 .logo2{
     height: 180px;
     width: 120px;
+}
+
+.list-bottom {
+    list-style: none;
+    padding-top: 100px;
+}
+
+.list-bottom li {
+    margin: 0px;
+    color: #303033;
+    font-size: 15px;
+}
+
+.bottom {
+    background: #E1DFDB;
+    height: 300px;
+}
+
+body{
+    background: #E1DFDB;
 }
