@@ -213,3 +213,42 @@ li{
 body{
     background: #E1DFDB;
 }
+
+@media (max-width: 576px) { 
+    .label {
+        display:none; 
+    }
+
+    .header {
+        background: #8B0000;
+    }
+
+    .headers {
+        color: red;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .testaments {
+        height: 100%;
+    }
+
+    #secondTestament {
+        margin-bottom: 50px;
+    }
+
+    .prophets {
+        height: 100%;
+    }
+
+    #shisui {
+        height: 300px;
+        width: 300px;
+    }
+
+    .comandments {
+        height: 100%;
+    }
+}
