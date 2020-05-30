@@ -27,7 +27,6 @@ const throne = document.getElementById("throne"),
 throne.addEventListener('click', () => {
     modal.style.display = "block";
     body.style.overflow = "hidden";
-    mang.style.display = "block";
     audio2.play();
     rot.forEach((item) => {
         item.classList.add('animation');
